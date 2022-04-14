@@ -1,10 +1,14 @@
 <?php
     class Rollercoaster extends Controller{
+
+        // bouwt een constructor
         public function __construct()
         {
             $this->rollercoasterModel = $this->model('Rollercoasters');
         }
 
+
+            // haalt de data terug van de model zodat de user deze terug weergeven krijgt in de browser, this->view... zorgt ervoor dat de data gestuurd word naar de view rollercoaster/map
         public function index(){
             $model = $this->rollercoasterModel->getCoasters();
             $tablesRow = "";

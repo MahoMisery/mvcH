@@ -22,7 +22,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1>Overzicht van Fruit</h1>
+            <h1>Overzicht van coasters!</h1>
         </div>
         <div class="row">
             <div class="col">

@@ -7,3 +7,6 @@ foreach ($data['users'] as $user) {
 */
 ?>
 HOME PAGE
+
+<!-- hyperlink naar de coaster page-->
+<a style="padding-left:500px;"  id="linkje1" href="<?= URLROOT; ?>/rollercoaster/index"><button class="btn btn-primary btn-lg active"> Ga naar de coasters!</button></a>
