@@ -16,6 +16,9 @@
     </style>
 </head>
 
+
+
+<!--creert de look van de tabel en weergeeft deze op de pagina rollercoaster -->
 <body>
     <div class="container">
         <div class="row">
@@ -27,10 +30,12 @@
                     <thead>
                         <tr>
                             <th scope="col">id</th>
-                            <th scope="col">name amuse</th>
-                            <th scope="col">capital city</th>
-                            <th scope="col">continent</th>
-                            <th scope="col">population</th>
+                            <th scope="col">name amusement park</th>
+                            <th scope="col">name coaster</th>
+                            <th scope="col">country</th>
+                            <th scope="col">speed</th>
+                            <th scope="col">height</th>
+
                         </tr>
                     </thead>
                     <tbody>

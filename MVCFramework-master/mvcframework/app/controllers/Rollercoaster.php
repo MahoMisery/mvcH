@@ -6,7 +6,7 @@
         }
 
         public function index(){
-            $model = $this->rollercoasterModel->getUsers();
+            $model = $this->rollercoasterModel->getCoasters();
             $tablesRow = "";
             foreach($model as $value){
                 $tablesRow .= "
